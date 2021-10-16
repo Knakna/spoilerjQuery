@@ -594,7 +594,7 @@ margin: 0 0 70px 0;
 	left: 0;
 }
 
-.items__body {
+.items__item  .items__body {
 	flex: 1 1 auto;
 	padding: 0px 0px 0px 30px;
 }
@@ -605,7 +605,7 @@ margin: 0 0 70px 0;
 	margin: 0px 0px 20px 0px;
 }
 .items__text {
-
+padding: 10px;
 }
 
 
@@ -616,7 +616,7 @@ justify-content: center;
 margin: 0 0 50px 0;
 	}
 
-	.items__body {
+	.items__item  .items__body {
 		padding: 30px 0px 0px 30px;
 	}
 }
@@ -663,6 +663,83 @@ padding: 0 15px;
 	 */
 }
 /* ------------------ */
+
+
+
+
+.content, .ww {
+	position: relative;
+	z-index: 5;
+	background-color: #794f45;
+}
+.content__container {
+	max-width: 1200px;
+	margin: 0px auto;
+	padding: 50px 15px;
+	font-size: 18px;
+	line-height: 150%;
+}
+.content__container p {
+	margin: 0px 0px 20px 0px;
+}
+
+
+/* Адаптив */
+/* aspect-ratio: 16 / 9; */
+
+.items {
+	padding: 50px 0;
+}
+.items__container {
+	max-width: 1200px;
+	padding: 0px 15px;
+	margin: 0px auto;
+}
+.items__body {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+/* .item {
+} */
+.item__video {
+	position: relative;
+	margin: 0px 0px 15px 0px;
+	padding: 0px 0px  56% 0px;
+}
+.item__video video,
+.item__video iframe {
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.item__text {
+	font-size: 18px;
+	line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Фуллскрин */
 

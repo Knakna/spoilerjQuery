@@ -102,3 +102,18 @@ $(document).ready(function () {
 // 		return false;
 // 	});
 // });
+
+
+let colorEyesUser;
+let user;
+let userName = "Вася";
+user = userName;
+console.log (user);
+
+if (true) {
+	var size = 15;
+}
+console.log (size);
+
+let trueOrFalse = 58 < 18;
+console.log (trueOrFalse);
