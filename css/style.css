@@ -982,6 +982,26 @@ margin: 0 0 50px 0;
 	object-fit: cover;
 }
 
-/* ------------------ */
+/* -------icons----------- */
 
+.links {
+	padding: 30px;
+	background-color:#bfc0c4;
+}
 
+.link {
+	font-size: 20px;
+	color: #5e5373;
+	transition: all 0.3s ease 0s;
+	text-shadow: 0 2px 2px #000;
+	text-decoration: none;
+	display: inline-block;
+	margin: 20px;
+}
+.link::before {
+	margin: 0px 10px 0px 0px;
+	font-size: 50px;
+}
+.link:hover {
+	color: #fff;
+}
