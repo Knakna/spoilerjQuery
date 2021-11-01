@@ -1005,3 +1005,33 @@ margin: 0 0 50px 0;
 .link:hover {
 	color: #fff;
 }
+
+.vertical {
+	margin: 30px;
+	padding: 10px;
+	display: inline-block;
+	color: #5e5373;
+	background-color: #ccc;
+	font-weight: 700;
+
+	writing-mode: vertical-lr;
+	transform: rotate(-180deg);
+}
+
+.vertical2 {
+	margin: 30px;
+	padding: 10px;
+
+	display: inline-block;
+	color: #5e5373;
+	background-color: #ccc;
+	font-weight: 700;
+
+
+
+	writing-mode: vertical-rl;
+
+	text-orientation: upright;
+
+}
+
